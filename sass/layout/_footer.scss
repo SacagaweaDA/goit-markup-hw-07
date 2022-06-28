@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--hero-section-color);
+  padding: 60px 0px;
+}
+
+.footer--display {
+  display: flex;
+  //   align-items: baseline;
+}
+
+.footer--wrapper {
+  width: 231px;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--contacts-text-color);
+}
+
+.address__street {
+  margin-bottom: 9px;
+  color: var(--additional-text-color);
+}
+
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__link {
+  text-decoration: none;
+}

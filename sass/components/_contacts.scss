@@ -1,0 +1,25 @@
+.contacts {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+
+  &__link {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+
+  &__icon {
+    margin-right: 10px;
+    fill: currentColor;
+    align-items: center;
+  }
+}

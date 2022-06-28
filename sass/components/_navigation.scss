@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  margin-left: 93px;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    position: relative;
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+  &__link:hover,
+  &__link:focus {
+    color: var(--accent-color);
+  }
+}
